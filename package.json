@@ -1,16 +1,28 @@
 {
-  "name": "rescript-htmx",
-  "version": "0.0.0",
+  "name": "@jvlk/rescript-htmx",
+  "version": "1.0.0",
+  "author": {
+    "name": "Josh Derocher-Vlk",
+    "email": "josh@vlkpack.com"
+  },
+  "keywords": [
+    "rescript",
+    "htmx",
+    "jsx"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/jderochervlk/rescript-htmx"
+  },
+  "bugs": {
+    "url": "https://github.com/jderochervlk/rescript-htmx/issues"
+  },
   "scripts": {
     "res:build": "rescript",
     "res:clean": "rescript clean",
     "res:dev": "rescript -w"
   },
-  "keywords": [
-    "rescript"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "@rescript/core": "^1.3.0",
     "rescript": "^11.1.0"

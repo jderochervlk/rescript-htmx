@@ -1,5 +1,6 @@
 {
-  "name": "rescript-htmx",
+  "name": "@jvlk/rescript-htmx",
+  "namespace": false,
   "sources": {
     "dir": "src",
     "subdirs": true

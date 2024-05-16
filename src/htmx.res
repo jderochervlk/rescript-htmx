@@ -19,6 +19,7 @@ module JsxProps = {
   type hxEncoding = | @as("multipart/form-data") MultipartFormData
 
   type t = {
+    class?: string,
     // core attributes
     @as("hx-get") hxGet?: string,
     @as("hx-post") hxPost?: string,
